@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+list-style-type: none;
+}
+
+
+
+.header{
+    background-color: green;
+    color: white;
+}
+
+.logo{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+.newnav{
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+
+}
+.link{
+    color: white;
+    font-size: 1.1em;
+}
+
+.link:hover{
+    color: white;
+    font-weight: bold;
+}
+
+.link:active{
+    color: white;
+}
+
+
+
+.img-1, .img-2, .img-3{
+    position: relative;
+    z-index: 99;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: .3rem !important;
+}
+
+.text{
+    position: absolute;
+    left: .7em;
+    bottom: 0;
+    z-index: 99;
+}
+
+.text p{
+    color: white;
+    font-size: 1.1em;
+}
+
+.text small{
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+/* End of section 1 */
+
+
+
+/* section 2 */
+.reading{
+    font-size: 20px;
+
+}
+.reading a{
+    text-decoration: none;
+    color: #4D4C7D;
+}
+
+.date{
+    color: grey;
+}
+/* end of section 2 */
+
+
+
+
+
+/* section 3 */
+.card-cont small{
+    margin-bottom: 3em;
+
+}
+
+.card-cont h2{
+font-size: 18px;
+}
+
+.img-card{
+    margin-bottom: 9em;
+
+}
+/* end of section 3 */
+
+
+
+
+
+.continue-reading {
+    border-bottom: 2px solid #214252;
+    text-decoration: none;
+    color: #214252;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section 4 */
+
+
+
+.new-card{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.new-card h2 a{
+    text-decoration: none;
+    color: #4D4C7D;
+}
+
+.new-card h2{
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.new-card span img{
+    width: 30px;
+    border-radius: 50%;
+}
+
+.new-card .post{
+    color: gray;
+    font-size: 13px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+/* end of section 4 */
+
+
+
+/* footer */
+
+.footer{
+    background-color: #214252;
+    font-size: 14px;
+    padding: 70px 0;
+    color: white;
+}
+
+
+.footer-link {
+    font-size: 16px;
+    /* font-weight: 500; */
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
